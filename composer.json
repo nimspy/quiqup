@@ -1,0 +1,26 @@
+{
+    "name": "nimspy/quiqup",
+    "description": "Quiqup api library",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3",
+        "guzzlehttp/guzzle": "6.5.x-dev",
+        "symfony/http-foundation": "v4.4.37"
+    },
+    "require-dev": {
+
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "nimspy\\Quiqup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Illia Hilevych",
+            "email": "nimspy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
